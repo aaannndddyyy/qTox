@@ -1200,7 +1200,7 @@ en lugar de la barra de tareas del sistema.</translation>
 will be sent to them when they appear online to you.</source>
         <comment>toolTip for Faux offline messaging setting</comment>
         <translation>Los mensajes que intentes enviar a tus amigos cuando estén desconectados
-serán enviados cuando se vuelvan a conectar.</translation>
+serán enviados cuando ellos vuelvan a conectarse.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="487"/>
