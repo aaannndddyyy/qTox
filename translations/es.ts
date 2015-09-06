@@ -1200,7 +1200,7 @@ en lugar de la barra de tareas del sistema.</translation>
 will be sent to them when they appear online to you.</source>
         <comment>toolTip for Faux offline messaging setting</comment>
         <translation>Los mensajes que intentes enviar a tus amigos cuando estén desconectados
-serán enviados cuando ellos vuelvan a conectarse.</translation>
+serán enviados cuando tú y ellos estén conectados al mismo tiempo.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="487"/>
@@ -1458,7 +1458,7 @@ Hazlo sólo en caso de ser necesario.</translation>
         <source>This bunch of characters tells other Tox clients how to contact you.
 Share it with your friends to communicate.</source>
         <comment>Tox ID tooltip</comment>
-        <translation>Tox usa este grupo de carácteres para saber cómo has de ser contactado.
+        <translation>Tox usa este grupo de caracteres para saber cómo has de ser contactado.
 Compártelo con tus amigos para poder comunicarte.</translation>
     </message>
     <message>
@@ -1475,13 +1475,13 @@ Compártelo con tus amigos para poder comunicarte.</translation>
         <location filename="../src/widget/form/profileform.ui" line="208"/>
         <source>Rename profile.</source>
         <comment>tooltip for renaming profile button</comment>
-        <translation>Renombrar perfil</translation>
+        <translation>Renombra el perfil.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/profileform.ui" line="218"/>
         <source>Delete profile.</source>
         <comment>delete profile button tooltip</comment>
-        <translation>Elimina el perfil.</translation>
+        <translation>Elimina el perfil actual.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/profileform.ui" line="239"/>
@@ -1647,7 +1647,7 @@ El perfil no contiene tu historial.</translation>
     <message>
         <location filename="../src/widget/loginscreen.cpp" line="124"/>
         <source>The password must be at least 6 characters long.</source>
-        <translation>La contraseña tiene que tener al menos 6 carácteres.</translation>
+        <translation>La contraseña tiene que tener al menos 6 caracteres.</translation>
     </message>
     <message>
         <location filename="../src/widget/loginscreen.cpp" line="130"/>
@@ -1659,13 +1659,13 @@ Verifica que sea la misma en ambos recuadros.</translation>
     <message>
         <location filename="../src/widget/loginscreen.cpp" line="136"/>
         <source>A profile with this name already exists.</source>
-        <translation>Ya existe un perfil con este nombre.</translation>
+        <translation>Ya existe un perfil con ese nombre.</translation>
     </message>
     <message>
         <location filename="../src/widget/loginscreen.cpp" line="144"/>
         <source>Unknown error: Couldn&apos;t create a new profile.
 If you encountered this error, please report it.</source>
-        <translation>Error desconocido: No se pudo crear un nuevo perfil.
+        <translation>Error desconocido: no se pudo crear un nuevo perfil.
 Por favor reporta este error.</translation>
     </message>
     <message>
@@ -1988,13 +1988,13 @@ Por favor usa otra.</translation>
     <message>
         <location filename="../src/widget/form/profileform.cpp" line="358"/>
         <source>Please enter a new password.</source>
-        <translation>Por favor, ingresa tu nueva contraseña.</translation>
+        <translation>Ingresa tu nueva contraseña.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/profileform.cpp" line="372"/>
         <source>This bunch of characters tells other Tox clients how to contact you.
 Share it with your friends to communicate.</source>
-        <translation>Tox usa este grupo de carácteres para saber cómo has de ser contactado.
+        <translation>Tox usa este grupo de caracteres para saber cómo has de ser contactado.
 Compártelo con tus amigos para poder comunicarte.</translation>
     </message>
     <message>
