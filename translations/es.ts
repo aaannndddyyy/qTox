@@ -1176,7 +1176,7 @@ en lugar de la barra de tareas del sistema.</translation>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="249"/>
         <source>Start qTox on operating system startup (current profile).</source>
-        <translation>Iniciar qTox (usando el prefil actual) junto con el sistema operativo</translation>
+        <translation>Iniciar qTox (usando el perfil actual) junto con el sistema operativo</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="345"/>
@@ -1678,7 +1678,7 @@ Por favor reporta este error.</translation>
     <message>
         <location filename="../src/widget/loginscreen.cpp" line="179"/>
         <source>This profile is already in use.</source>
-        <translation>Este perfil ya está en uso.</translation>
+        <translation>Ese perfil ya está en uso.</translation>
     </message>
     <message>
         <location filename="../src/widget/loginscreen.cpp" line="188"/>
