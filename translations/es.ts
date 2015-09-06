@@ -4,7 +4,7 @@
 <context>
     <name>AVForm</name>
     <message>
-        <location filename="../src/widget/form/settings/avform.h" line="42"/>
+        <location filename="../src/widget/form/settings/avform.h" line="42"/>pé
         <source>Audio/Video</source>
         <translation>Audio/Vídeo</translation>
     </message>
@@ -724,7 +724,7 @@ Disabling chat history now will leave the encrypted history intact (but not usab
         <location filename="../src/chatlog/content/filetransferwidget.cpp" line="311"/>
         <source>Paused</source>
         <comment>file transfer widget</comment>
-        <translation>Pausado</translation>
+        <translation>Pausada</translation>
     </message>
     <message>
         <location filename="../src/chatlog/content/filetransferwidget.cpp" line="357"/>
@@ -1851,7 +1851,7 @@ Si estás recibiendo solicitudes de amistad no deseadas, cambia tu NoSpam.</tran
 Save format changes are possible, which may result in data loss.</source>
         <comment>toolTip for Keep History setting</comment>
         <translation>Mantener un historial de chat es una función aún en desarrollo.
-Es posible que haya cambios en el formato de guardado, lo que puede generar pérdida de datos.</translation>
+Es posible que haya cambios en el formato de guardado, lo que puede generar una pérdida de datos.</translation>
     </message>
 </context>
 <context>
@@ -1917,7 +1917,7 @@ Por favor usa otra.</translation>
     <message>
         <location filename="../src/widget/form/profileform.cpp" line="272"/>
         <source>Couldn&apos;t rename the profile to &quot;%1&quot;</source>
-        <translation>No se pudo renombrar el perfil como &quot;%1&quot;.</translation>
+        <translation>No se pudo renombrar el perfil a &quot;%1&quot;.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/profileform.cpp" line="284"/>
@@ -1988,13 +1988,13 @@ Por favor usa otra.</translation>
     <message>
         <location filename="../src/widget/form/profileform.cpp" line="358"/>
         <source>Please enter a new password.</source>
-        <translation>Ingresa tu nueva contraseña.</translation>
+        <translation>Por favor, ingresa tu nueva contraseña.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/profileform.cpp" line="372"/>
         <source>This bunch of characters tells other Tox clients how to contact you.
 Share it with your friends to communicate.</source>
-        <translation>Tox usa este grupo caracteres para saber como has de ser contactado.
+        <translation>Tox usa este grupo de carácteres para saber cómo has de ser contactado.
 Compártelo con tus amigos para poder comunicarte.</translation>
     </message>
     <message>
@@ -2028,7 +2028,7 @@ Compártelo con tus amigos para poder comunicarte.</translation>
         <location filename="../src/persistence/toxsave.cpp" line="58"/>
         <source>Warning: you&apos;ve chosen a file that is not a Tox save file; ignoring.</source>
         <comment>popup text</comment>
-        <translation>Advertencia: el archivo seleccionado no es un archivo Tox. Ignorado.</translation>
+        <translation>Advertencia: El archivo seleccionado no es un archivo Tox. Ignorando.</translation>
     </message>
     <message>
         <location filename="../src/persistence/toxsave.cpp" line="64"/>
@@ -2142,7 +2142,7 @@ Será instalada cuando reinicies qTox.</translation>
     <message>
         <location filename="../src/widget/form/removefrienddialog.ui" line="39"/>
         <source>YES</source>
-        <translation>SI</translation>
+        <translation>SÍ</translation>
     </message>
     <message>
         <location filename="../src/widget/form/removefrienddialog.ui" line="46"/>
@@ -2167,7 +2167,7 @@ Será instalada cuando reinicies qTox.</translation>
         <location filename="../src/widget/tool/screenshotgrabber.cpp" line="162"/>
         <source>Press &lt;b&gt;Enter&lt;/b&gt; to send a screenshot of the selection, &lt;b&gt;Space&lt;/b&gt; to hide/show qTox window, or &lt;b&gt;Escape&lt;/b&gt; to cancel.</source>
         <comment>Help text shown when a region has been selected</comment>
-        <translation>Presiona &lt;b&gt;Enter&lt;/b&gt; para envir una captura de pantalla de la selección, &lt;b&gt;Espacio&lt;/b&gt; para mostar/ocultar la ventana de qTox, o &lt;b&gt;Escape&lt;/b&gt; para cancelar.</translation>
+        <translation>Presiona &lt;b&gt;Enter&lt;/b&gt; para enviar una captura de pantalla de la selección, &lt;b&gt;Espacio&lt;/b&gt; para mostar/ocultar la ventana de qTox, o &lt;b&gt;Escape&lt;/b&gt; para cancelar.</translation>
     </message>
 </context>
 <context>
@@ -2222,7 +2222,7 @@ Será instalada cuando reinicies qTox.</translation>
         <location filename="../src/net/toxdns.cpp" line="72"/>
         <source>The connection timed out</source>
         <comment>The DNS gives the Tox ID associated to toxme.se addresses</comment>
-        <translation>El tiempo de conexión ha expirado</translation>
+        <translation>El tiempo de conexión se ha agotado.</translation>
     </message>
     <message>
         <location filename="../src/net/toxdns.cpp" line="80"/>
@@ -2349,13 +2349,13 @@ Si no estás seguro, selecciona &quot;No&quot; para evitar comunicaciones usando
     <message>
         <location filename="../src/widget/widget.cpp" line="497"/>
         <source>Toxcore failed to start, the application will terminate after you close this message.</source>
-        <translation>toxcore falló al iniciar, el programa terminará al cerrar este mensaje.</translation>
+        <translation>Toxcore falló al iniciar, el programa terminará al cerrar este mensaje.</translation>
     </message>
     <message>
         <location filename="../src/widget/widget.cpp" line="507"/>
         <source>toxcore failed to start with your proxy settings. qTox cannot run; please modify your settings and restart.</source>
         <comment>popup text</comment>
-        <translation>toxcore falló al iniciar con la configuración actual de proxy. Por favor modifica la configuración y reinicia qTox.</translation>
+        <translation>Toxcore falló al iniciar con la configuración actual de proxy. Por favor modifica la configuración y reinicia qTox.</translation>
     </message>
     <message>
         <location filename="../src/widget/widget.cpp" line="335"/>
@@ -2569,7 +2569,7 @@ Si no estás seguro, selecciona &quot;No&quot; para evitar comunicaciones usando
     <message>
         <location filename="../src/widget/widget.cpp" line="1405"/>
         <source>Message failed to send</source>
-        <translation>Falló envío de mensaje</translation>
+        <translation>Falló el envío del mensaje</translation>
     </message>
 </context>
 </TS>
