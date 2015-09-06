@@ -699,7 +699,7 @@ Disabling chat history now will leave the encrypted history intact (but not usab
         <location filename="../src/chatlog/content/filetransferwidget.cpp" line="143"/>
         <source>You do not have permission to write that location. Choose another, or cancel the save dialog.</source>
         <comment>text of permissions popup</comment>
-        <translation>No tienes permiso de escritura. Elije otra ubicación o cancela el envío.</translation>
+        <translation>No tienes permiso de escritura. Elige otra ubicación o cancela el envío.</translation>
     </message>
     <message>
         <location filename="../src/chatlog/content/filetransferwidget.cpp" line="331"/>
@@ -874,7 +874,7 @@ Disabling chat history now will leave the encrypted history intact (but not usab
     <message>
         <location filename="../src/widget/friendwidget.cpp" line="112"/>
         <source>Move  to circle &quot;%1&quot;</source>
-        <translation>Mover a círculo &quot;%1&quot;</translation>
+        <translation>Mover al círculo &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../src/widget/friendwidget.cpp" line="126"/>
@@ -922,7 +922,7 @@ Disabling chat history now will leave the encrypted history intact (but not usab
         <location filename="../src/widget/friendwidget.cpp" line="171"/>
         <source>Choose an auto accept directory</source>
         <comment>popup title</comment>
-        <translation>Elije un directorio para descargas automáticas</translation>
+        <translation>Elige un directorio para descargas automáticas</translation>
     </message>
     <message>
         <location filename="../src/widget/friendwidget.cpp" line="135"/>
@@ -966,7 +966,7 @@ Disabling chat history now will leave the encrypted history intact (but not usab
         <location filename="../src/widget/form/settings/generalform.cpp" line="300"/>
         <source>Choose an auto accept directory</source>
         <comment>popup title</comment>
-        <translation>Elije un directorio para transferencias automáticas</translation>
+        <translation>Elige un directorio para transferencias automáticas</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalform.cpp" line="358"/>
@@ -1038,7 +1038,7 @@ Disabling chat history now will leave the encrypted history intact (but not usab
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="67"/>
         <source>Language:</source>
-        <translation>Lenguaje:</translation>
+        <translation>Idioma:</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="102"/>
@@ -1049,7 +1049,7 @@ Disabling chat history now will leave the encrypted history intact (but not usab
         <location filename="../src/widget/form/settings/generalsettings.ui" line="153"/>
         <source>Enable light tray icon.</source>
         <comment>toolTip for light icon setting</comment>
-        <translation>Habilitar ícono claro en la bandeja.</translation>
+        <translation>Habilitar ícono claro en la bandeja</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="156"/>
@@ -1067,7 +1067,7 @@ Disabling chat history now will leave the encrypted history intact (but not usab
         <source>After pressing close (X) qTox will minimize to tray,
 instead of closing itself.</source>
         <comment>toolTip for close to tray setting</comment>
-        <translation>Después de presionar cerrar (X) qTox minimizará en la bandeja,
+        <translation>Después de presionar cerrar (X) qTox minimizará a la bandeja,
 en lugar de cerrarse.</translation>
     </message>
     <message>
@@ -1075,7 +1075,7 @@ en lugar de cerrarse.</translation>
         <source>After pressing minimize (_) qTox will minimize itself to tray,
 instead of system taskbar.</source>
         <comment>toolTip for minimize to tray setting</comment>
-        <translation>Después de presionar a minimizar (_) qTox minimizará en la bandeja,
+        <translation>Después de presionar a minimizar (_) qTox minimizará a la bandeja,
 en lugar de la barra de tareas del sistema.</translation>
     </message>
     <message>
@@ -1101,7 +1101,7 @@ en lugar de la barra de tareas del sistema.</translation>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="200"/>
         <source>Your status is changed to Away after set period of inactivity.</source>
-        <translation>Tu estado se cambia a Ausente después del período de inactividad establecido.</translation>
+        <translation>Tu estado cambia a &apos;Ausente&apos; después del período de inactividad establecido.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="308"/>
@@ -1160,7 +1160,7 @@ en lugar de la barra de tareas del sistema.</translation>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="438"/>
         <source>Smiley Pack:</source>
         <extracomment>Text on smiley pack label</extracomment>
-        <translation>Pack de emoticonos:</translation>
+        <translation>Paquete de emoticonos:</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="455"/>
@@ -1176,7 +1176,7 @@ en lugar de la barra de tareas del sistema.</translation>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="249"/>
         <source>Start qTox on operating system startup (current profile).</source>
-        <translation>Iniciar qTox (usando el prefil actual) junto con el sistema operativo.</translation>
+        <translation>Iniciar qTox (usando el prefil actual) junto con el sistema operativo</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="345"/>
@@ -1200,7 +1200,7 @@ en lugar de la barra de tareas del sistema.</translation>
 will be sent to them when they appear online to you.</source>
         <comment>toolTip for Faux offline messaging setting</comment>
         <translation>Los mensajes que intentes enviar a tus amigos cuando estén desconectados
-serán enviados cuando los veas aparecer de nuevo en línea.</translation>
+serán enviados cuando se vuelvan a conectar.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="487"/>
@@ -1215,7 +1215,7 @@ serán enviados cuando los veas aparecer de nuevo en línea.</translation>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="521"/>
         <source>Timestamp format:</source>
-        <translation>Formato de marca temporal:</translation>
+        <translation>Formato de marcas temporales:</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="538"/>
@@ -1331,7 +1331,7 @@ Hazlo sólo en caso de ser necesario.</translation>
     <message>
         <location filename="../src/widget/form/genericchatform.cpp" line="515"/>
         <source>Send file(s)</source>
-        <translation>Enviar archivos</translation>
+        <translation>Enviar archivo(s)</translation>
     </message>
     <message>
         <location filename="../src/widget/form/genericchatform.cpp" line="516"/>
@@ -1458,7 +1458,7 @@ Hazlo sólo en caso de ser necesario.</translation>
         <source>This bunch of characters tells other Tox clients how to contact you.
 Share it with your friends to communicate.</source>
         <comment>Tox ID tooltip</comment>
-        <translation>Tox usa este grupo caracteres para saber como has de ser contactado.
+        <translation>Tox usa este grupo de carácteres para saber cómo has de ser contactado.
 Compártelo con tus amigos para poder comunicarte.</translation>
     </message>
     <message>
@@ -1475,13 +1475,13 @@ Compártelo con tus amigos para poder comunicarte.</translation>
         <location filename="../src/widget/form/profileform.ui" line="208"/>
         <source>Rename profile.</source>
         <comment>tooltip for renaming profile button</comment>
-        <translation>Renombrar perfil.</translation>
+        <translation>Renombrar perfil</translation>
     </message>
     <message>
         <location filename="../src/widget/form/profileform.ui" line="218"/>
         <source>Delete profile.</source>
         <comment>delete profile button tooltip</comment>
-        <translation>Eliminar perfil.</translation>
+        <translation>Elimina el perfil.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/profileform.ui" line="239"/>
@@ -1508,7 +1508,7 @@ Compártelo con tus amigos para poder comunicarte.</translation>
     <message>
         <location filename="../src/widget/form/profileform.ui" line="125"/>
         <source>This QR code contains your Tox ID. You may share this with your friends as well.</source>
-        <translation>Este código QR contiene tu Tox ID. Puedes compartirla con tus amigos.</translation>
+        <translation>Este código QR contiene tu Tox ID. Puedes compartirlo con tus amigos.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/profileform.ui" line="132"/>
@@ -1542,7 +1542,7 @@ Compártelo con tus amigos para poder comunicarte.</translation>
         <source>Allows you to export your Tox profile to a file.
 Profile does not contain your history.</source>
         <comment>tooltip for profile exporting button</comment>
-        <translation>Exportar tu perfil Tox a un archivo.
+        <translation>Exporta tu perfil Tox a un archivo.
 El perfil no contiene tu historial.</translation>
     </message>
     <message>
@@ -1612,7 +1612,7 @@ El perfil no contiene tu historial.</translation>
     <message>
         <location filename="../src/loginscreen.ui" line="784"/>
         <source>If the profile does not have a password, qTox can skip the login screen</source>
-        <translation>Si el perfil no está protejido con contraseña, qTox puede saltarse la pantalla de inicio</translation>
+        <translation>Si el perfil no está protegido con contraseña, qTox puede saltarse la pantalla de inicio</translation>
     </message>
     <message>
         <location filename="../src/loginscreen.ui" line="787"/>
@@ -1647,7 +1647,7 @@ El perfil no contiene tu historial.</translation>
     <message>
         <location filename="../src/widget/loginscreen.cpp" line="124"/>
         <source>The password must be at least 6 characters long.</source>
-        <translation>La contraseña tiene que tener al menos 6 caracteres.</translation>
+        <translation>La contraseña tiene que tener al menos 6 carácteres.</translation>
     </message>
     <message>
         <location filename="../src/widget/loginscreen.cpp" line="130"/>
@@ -1659,13 +1659,13 @@ Verifica que sea la misma en ambos recuadros.</translation>
     <message>
         <location filename="../src/widget/loginscreen.cpp" line="136"/>
         <source>A profile with this name already exists.</source>
-        <translation>Ya existe un perfil con ese nombre.</translation>
+        <translation>Ya existe un perfil con este nombre.</translation>
     </message>
     <message>
         <location filename="../src/widget/loginscreen.cpp" line="144"/>
         <source>Unknown error: Couldn&apos;t create a new profile.
 If you encountered this error, please report it.</source>
-        <translation>Error desconocido: no se pudo crear un nuevo perfil.
+        <translation>Error desconocido: No se pudo crear un nuevo perfil.
 Por favor reporta este error.</translation>
     </message>
     <message>
@@ -1678,7 +1678,7 @@ Por favor reporta este error.</translation>
     <message>
         <location filename="../src/widget/loginscreen.cpp" line="179"/>
         <source>This profile is already in use.</source>
-        <translation>El perfil ya está en uso.</translation>
+        <translation>Este perfil ya está en uso.</translation>
     </message>
     <message>
         <location filename="../src/widget/loginscreen.cpp" line="188"/>
@@ -1797,7 +1797,7 @@ Por favor reporta este error.</translation>
     <message>
         <location filename="../src/widget/form/settings/privacyform.cpp" line="69"/>
         <source>Could not delete chat history</source>
-        <translation>No se pudo eliminar el historial de chat</translation>
+        <translation>No se pudo eliminar el historial de chat.</translation>
     </message>
 </context>
 <context>
@@ -1864,7 +1864,7 @@ Es posible que haya cambios en el formato de guardado, lo que puede generar pér
     <message>
         <location filename="../src/widget/form/profileform.cpp" line="209"/>
         <source>Choose a profile picture</source>
-        <translation>Elije una imagen de perfil</translation>
+        <translation>Elige una imagen de perfil</translation>
     </message>
     <message>
         <location filename="../src/widget/form/profileform.cpp" line="219"/>
@@ -1912,12 +1912,12 @@ Por favor usa otra.</translation>
         <location filename="../src/widget/form/profileform.cpp" line="271"/>
         <source>Failed to rename</source>
         <comment>rename failed title</comment>
-        <translation>No se pudo renombrar</translation>
+        <translation>No se pudo renombrar.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/profileform.cpp" line="272"/>
         <source>Couldn&apos;t rename the profile to &quot;%1&quot;</source>
-        <translation>No se pudo renombrar el perfil como &quot;%1&quot;</translation>
+        <translation>No se pudo renombrar el perfil como &quot;%1&quot;.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/profileform.cpp" line="284"/>
@@ -1943,7 +1943,7 @@ Por favor usa otra.</translation>
         <location filename="../src/widget/form/profileform.cpp" line="332"/>
         <source>You do not have permission to write that location. Choose another, or cancel the save dialog.</source>
         <comment>text of permissions popup</comment>
-        <translation>No tienes permiso de escritura. Elije otra ubicación o cancela la operación.</translation>
+        <translation>No tienes permiso de escritura. Elige otra ubicación o cancela la operación.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/profileform.cpp" line="295"/>
