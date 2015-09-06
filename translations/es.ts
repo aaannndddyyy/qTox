@@ -4,7 +4,7 @@
 <context>
     <name>AVForm</name>
     <message>
-        <location filename="../src/widget/form/settings/avform.h" line="42"/>pé
+        <location filename="../src/widget/form/settings/avform.h" line="42"/>
         <source>Audio/Video</source>
         <translation>Audio/Vídeo</translation>
     </message>
