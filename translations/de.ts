@@ -2102,7 +2102,7 @@ Sie wird beim nächsten Neustart von qTox automatisch installiert.</translation>
     <message>
         <location filename="../src/widget/tool/callconfirmwidget.cpp" line="49"/>
         <source>Incoming call...</source>
-        <translation>Eingehender Anruf...</translation>
+        <translation>Eingehender Anruf ...</translation>
     </message>
     <message>
         <location filename="../src/persistence/toxsave.cpp" line="57"/>
