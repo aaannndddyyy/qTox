@@ -2349,13 +2349,13 @@ Si no estás seguro, selecciona &quot;No&quot; para evitar comunicaciones usando
     <message>
         <location filename="../src/widget/widget.cpp" line="497"/>
         <source>Toxcore failed to start, the application will terminate after you close this message.</source>
-        <translation>Toxcore falló al iniciar, el programa terminará al cerrar este mensaje.</translation>
+        <translation>Se produjo un error al iniciar toxcore, el programa terminará al cerrar este mensaje.</translation>
     </message>
     <message>
         <location filename="../src/widget/widget.cpp" line="507"/>
         <source>toxcore failed to start with your proxy settings. qTox cannot run; please modify your settings and restart.</source>
         <comment>popup text</comment>
-        <translation>Toxcore falló al iniciar con la configuración actual de proxy. Por favor modifica la configuración y reinicia qTox.</translation>
+        <translation>Se produjo un error al iniciar toxcore con la configuración actual de proxy. Por favor modifica la configuración y reinicia qTox.</translation>
     </message>
     <message>
         <location filename="../src/widget/widget.cpp" line="335"/>
