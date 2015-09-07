@@ -31,6 +31,7 @@
         <location filename="../src/widget/form/settings/avsettings.ui" line="41"/>
         <source>Audio Settings</source>
         <translatorcomment>Die Frage hier ist immer ob man mit Leerzeichen oder Bindestrich übersetzt. Meiner Meinung sieht das aber nicht gut aus. Toneinstellungen alternativ.</translatorcomment>
+        <translatorcomment>Nein, mit Leerzeichen ist es falsch. Durchgekoppelt oder zusammen. </translatorcomment>
         <translation>Audioeinstellungen</translation>
     </message>
     <message>
@@ -53,7 +54,7 @@
         <location filename="../src/widget/form/settings/avsettings.ui" line="108"/>
         <source>Use slider to set volume of your microphone.
 WARNING: slider is not supposed to work yet.</source>
-        <translation>Verwende den Schieber, um die Aufnahmelautstärke deines Mikrofons anzupassen.</translation>
+        <translation>Verwende den Schieber, um die Aufnahmelautstärke deines Mikrofons anzupassen.  ACHTUNG: Schieber funktioniert noch nicht.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/avsettings.ui" line="146"/>
@@ -85,7 +86,7 @@ WARNING: slider is not supposed to work yet.</source>
     <message>
         <location filename="../src/widget/form/settings/avsettings.ui" line="54"/>
         <source>Filter sound from your microphone, so that people hearing you would get better sound.</source>
-        <translation>Die Filterung kann die Tonqualität verbessern.</translation>
+        <translation>Das Filtern kann die Tonqualität verbessern.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/avsettings.ui" line="87"/>
@@ -255,14 +256,14 @@ Viele Grüße,
         <location filename="../src/widget/form/addfriendform.cpp" line="113"/>
         <source>qTox needs to use the Tox DNS, but can&apos;t do it through a proxy.
 Ignore the proxy and connect to the Internet directly?</source>
-        <translation>qTox verwendet Tox-DNS, um eine Verbindung herzustellen, aber kann das nicht bei aktiviertem Proxyserver.
+        <translation>qTox verwendet Tox-DNS, um eine Verbindung herzustellen, kann das bei aktiviertem Proxyserver aber nicht.
 Soll der Proxyserver ignoriert werden und eine Direktverbindung hergestellt werden? </translation>
     </message>
     <message>
         <location filename="../src/widget/form/addfriendform.cpp" line="123"/>
         <source>This Tox ID does not exist</source>
         <comment>DNS error</comment>
-        <translation>Diese Tox ID existiert nicht</translation>
+        <translation>Diese Tox ID existiert nicht.</translation>
     </message>
 </context>
 <context>
@@ -314,7 +315,7 @@ Soll der Proxyserver ignoriert werden und eine Direktverbindung hergestellt werd
         <translation>&lt;html&gt;
 &lt;body style=&quot; font-weight:400; color:#500;&quot;&gt;
 &lt;p&gt;Wichtiger Hinweis:&lt;/p&gt;
-&lt;p&gt;Bitte beachte, dass diese Einstellungen nur geändert werden sollten, wenn du weißt, was du tust! Ansonsten kann es möglicherweise zu Beschädigungen der Gesprächsverläufe kommen!&lt;/p&gt;
+&lt;p&gt;Bitte beachte, dass diese Einstellungen nur geändert werden sollten, wenn du weißt, was du tust! Ansonsten kann es zu Problemen und sogar Datenverlust wie z. B. Beschädigungen der Gesprächsverläufe kommen!&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;</translation>
     </message>
@@ -715,7 +716,7 @@ Disabling chat history now will leave the encrypted history intact (but not usab
         <location filename="../src/chatlog/content/filetransferwidget.cpp" line="142"/>
         <source>Location not writable</source>
         <comment>Title of permissions popup</comment>
-        <translation>Ordner nicht beschreibbar</translation>
+        <translation>Keine Schreibrechte für diesen Ordner</translation>
     </message>
     <message>
         <location filename="../src/chatlog/content/filetransferwidget.cpp" line="143"/>
@@ -1177,7 +1178,7 @@ instead of system taskbar.</source>
         <source>Messages you are trying to send to your friends when they are not online
 will be sent to them when they appear online to you.</source>
         <comment>toolTip for Faux offline messaging setting</comment>
-        <translation>Nachrichten, die du versendest während der entsprechende Kontakt nicht online ist, werden übertragen, sobald er verfügbar ist und du ebenfalls online bist.</translation>
+        <translation>Nachrichten, die du versendest während der entsprechende Kontakt nicht online ist, werden übertragen, sobald er verfügbar ist, und du ebenfalls online bist.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="394"/>
@@ -1360,12 +1361,12 @@ will be sent to them when they appear online to you.</source>
     <message>
         <location filename="../src/widget/form/genericchatform.cpp" line="517"/>
         <source>Start an audio call</source>
-        <translation>Anruf starten</translation>
+        <translation>Einen Anruf starten</translation>
     </message>
     <message>
         <location filename="../src/widget/form/genericchatform.cpp" line="518"/>
         <source>Start a video call</source>
-        <translation>Videoanruf starten</translation>
+        <translation>Einen Videoanruf starten</translation>
     </message>
     <message>
         <location filename="../src/widget/form/genericchatform.cpp" line="368"/>
@@ -1489,7 +1490,7 @@ will be sent to them when they appear online to you.</source>
         <source>This bunch of characters tells other Tox clients how to contact you.
 Share it with your friends to communicate.</source>
         <comment>Tox ID tooltip</comment>
-        <translation>Dies ist deine persönliche Addresse. Damit können dich andere qTox-Nutzer erreichen.
+        <translation>Dies ist deine persönliche Adresse. Damit können dich andere qTox-Nutzer erreichen.
 Teile sie einfach deinen Bekannten mit!</translation>
     </message>
     <message>
@@ -1699,12 +1700,12 @@ Bitte melde diesen Fehler an die Entwickler.</translation>
     <message>
         <location filename="../src/widget/loginscreen.cpp" line="179"/>
         <source>This profile is already in use.</source>
-        <translation>Dieses Profil wird bereits verwendet.</translation>
+        <translation>Dieses Profil wird gerade verwendet.</translation>
     </message>
     <message>
         <location filename="../src/widget/loginscreen.cpp" line="188"/>
         <source>Profile already in use. Close other clients.</source>
-        <translation>Dieses Profil wird bereits verwendet. Bitte beende andere Tox-Clients.</translation>
+        <translation>Dieses Profil wird gerade verwendet. Bitte beende andere Tox-Programme.</translation>
     </message>
     <message>
         <location filename="../src/widget/loginscreen.cpp" line="193"/>
@@ -1958,7 +1959,7 @@ Bitte benutze ein anderes.</translation>
         <location filename="../src/widget/form/profileform.cpp" line="332"/>
         <source>Location not writable</source>
         <comment>Title of permissions popup</comment>
-        <translation>Ordner nicht beschreibbar</translation>
+        <translation>Keine Schreibrechte für diesen Ordner</translation>
     </message>
     <message>
         <location filename="../src/widget/form/profileform.cpp" line="291"/>
@@ -2145,7 +2146,7 @@ Sie wird beim nächsten Neustart von qTox automatisch installiert.</translation>
 
 hier ist %1! Hast du Lust dich mit mir zu unterhalten?
 
-Viele Grüße
+Viele Grüße,
 %1</translation>
     </message>
     <message>
@@ -2174,7 +2175,7 @@ Viele Grüße
     <message>
         <location filename="../src/widget/form/removefrienddialog.ui" line="46"/>
         <source>Also remove chat history</source>
-        <translation>Zusätzlich Gesprächsverlauf löschen</translation>
+        <translation>Gesprächsverlauf ebenfalls löschen</translation>
     </message>
     <message>
         <location filename="../src/widget/tool/removefrienddialog.cpp" line="14"/>
@@ -2285,14 +2286,14 @@ Viele Grüße
         <location filename="../src/net/toxdns.cpp" line="146"/>
         <source>The DNS lookup does not contain any Tox ID</source>
         <comment>Error with the DNS</comment>
-        <translation>ToxDNS konnte keine Tox ID finden</translation>
+        <translation>ToxDNS konnte keine Tox ID finden.</translation>
     </message>
     <message>
         <location filename="../src/net/toxdns.cpp" line="155"/>
         <location filename="../src/net/toxdns.cpp" line="164"/>
         <source>The DNS lookup does not contain a valid Tox ID</source>
         <comment>Error with the DNS</comment>
-        <translation>ToxDNS konnte keine gültige Tox ID finden</translation>
+        <translation>ToxDNS konnte keine gültige Tox ID finden.</translation>
     </message>
     <message>
         <location filename="../src/net/toxdns.cpp" line="251"/>
@@ -2302,8 +2303,8 @@ Unfortunately tox1 is not secure, and you are at risk of someone hijacking what 
 Should tox1 be used anyway?
 If unsure, press &apos;No&apos;, so that request to ToxDNS service will not be made using unsecure protocol.</source>
         <translation>Es scheint, als ob qTox ein altes Protokoll verwenden muss, um sich mit deinem Kontakt zu verbinden.
-Leider ist die Alternativmethode nicht sicher und es besteht die Gefahr, dass an ToxDNS gesendete Daten abgefangen werden.
-Soll das Alternativprotokoll trotzdem verwendet werden?
+Leider ist die Alternativmethode nicht sicher, und es besteht die Gefahr, dass an ToxDNS gesendete Daten abgefangen werden.
+Soll das Alternativprotokoll tox1 trotzdem verwendet werden?
 Falls du dir nicht sicher bist, wähle „Nein“.</translation>
     </message>
 </context>
@@ -2366,14 +2367,14 @@ Falls du dir nicht sicher bist, wähle „Nein“.</translation>
     <message>
         <location filename="../src/widget/widget.cpp" line="497"/>
         <source>Toxcore failed to start, the application will terminate after you close this message.</source>
-        <translation>Es ist ein Fehler aufgetreten und die Anwendung kann nicht gestartet werden.</translation>
+        <translation>Es ist ein Fehler aufgetreten, und die Anwendung kann nicht gestartet werden.</translation>
     </message>
     <message>
         <location filename="../src/widget/widget.cpp" line="507"/>
         <source>toxcore failed to start with your proxy settings. qTox cannot run; please modify your settings and restart.</source>
         <comment>popup text</comment>
-        <translation>Es ist ein Fehler aufgetreten und die Anwendung kann nicht gestartet werden.
-Leider führen deine Proxy-Einstellungen zu Problemen. Bitte ändere deine Einstellungen und versuche es erneut.</translation>
+        <translation>Es ist ein Fehler aufgetreten, und die Anwendung kann nicht gestartet werden.
+Leider führen deine Proxy-Einstellungen zu Problemen. Bitte ändere deine Einstellungen und versuch es erneut.</translation>
     </message>
     <message>
         <location filename="../src/widget/widget.cpp" line="335"/>
@@ -2440,7 +2441,7 @@ Leider führen deine Proxy-Einstellungen zu Problemen. Bitte ändere deine Einst
     <message>
         <location filename="../src/widget/widget.cpp" line="312"/>
         <source>Previous Conversation</source>
-        <translation>Vorherige Konversation</translation>
+        <translation>Vorherige Unterhaltung</translation>
     </message>
     <message>
         <location filename="../src/widget/widget.cpp" line="318"/>
@@ -2508,7 +2509,7 @@ Leider führen deine Proxy-Einstellungen zu Problemen. Bitte ändere deine Einst
         <location filename="../src/widget/widget.cpp" line="816"/>
         <source>%1 is now %2</source>
         <comment>e.g. &quot;Dubslow is now online&quot;</comment>
-        <translation>%1 ist jetzt %2</translation>
+        <translation>%1 ist jetzt %2.</translation>
     </message>
     <message>
         <location filename="../src/widget/widget.cpp" line="1059"/>
@@ -2531,7 +2532,7 @@ Leider führen deine Proxy-Einstellungen zu Problemen. Bitte ändere deine Einst
     <message>
         <location filename="../src/widget/widget.cpp" line="1148"/>
         <source>%1 has set the title to %2</source>
-        <translation>%1 hat den Titel auf %2 geändert</translation>
+        <translation>%1 hat den Titel auf %2 geändert.</translation>
     </message>
     <message>
         <location filename="../src/widget/widget.cpp" line="1312"/>
