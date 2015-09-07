@@ -251,7 +251,7 @@ fallbackOnTox1:
     QMessageBox::StandardButton btn = QMessageBox::warning(nullptr, "qTox", tr("It appears that qTox has to use the old tox1 protocol to access DNS record of your friend's Tox ID.\n\
 Unfortunately tox1 is not secure, and you are at risk of someone hijacking what is sent between you and ToxDNS service.\n\
 Should tox1 be used anyway?\n\
-If unsure, press “No”, so that request to ToxDNS service will not be made using unsecure protocol."), QMessageBox::Yes|QMessageBox::No, QMessageBox::No);
+If unsure, press 'No', so that request to ToxDNS service will not be made using unsecure protocol."), QMessageBox::Yes|QMessageBox::No, QMessageBox::No);
     if (btn == QMessageBox::Yes)
         queryTox1(record, silent);
 
@@ -305,7 +305,7 @@ ToxId ToxDNS::resolveToxAddress(const QString &address, bool silent)
             QMessageBox::StandardButton btn = QMessageBox::warning(nullptr, "qTox", tr("It appears that qTox has to use the old tox1 protocol to access DNS record of your friend's Tox ID.\n\
 Unfortunately tox1 is not secure, and you are at risk of someone hijacking what is sent between you and ToxDNS service.\n\
 Should tox1 be used anyway?\n\
-If unsure, press “No”, so that request to ToxDNS service will not be made using unsecure protocol."), QMessageBox::Ok|QMessageBox::No, QMessageBox::No);
+If unsure, press 'No', so that request to ToxDNS service will not be made using unsecure protocol."), QMessageBox::Ok|QMessageBox::No, QMessageBox::No);
             if (btn == QMessageBox::Ok)
                 toxId = ToxId(queryTox1(address, silent));
 
