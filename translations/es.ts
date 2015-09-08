@@ -1215,7 +1215,7 @@ serán enviados cuando tú y ellos estén conectados al mismo tiempo.</translati
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="521"/>
         <source>Timestamp format:</source>
-        <translation>Formato de marcas temporales:</translation>
+        <translation>Formato de marca temporal:</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="538"/>
@@ -2028,7 +2028,7 @@ Compártelo con tus amigos para poder comunicarte.</translation>
         <location filename="../src/persistence/toxsave.cpp" line="58"/>
         <source>Warning: you&apos;ve chosen a file that is not a Tox save file; ignoring.</source>
         <comment>popup text</comment>
-        <translation>Advertencia: El archivo seleccionado no es un archivo Tox. Ignorando.</translation>
+        <translation>Advertencia: El archivo seleccionado no es un archivo Tox. Ignorado.</translation>
     </message>
     <message>
         <location filename="../src/persistence/toxsave.cpp" line="64"/>
@@ -2142,7 +2142,7 @@ Será instalada cuando reinicies qTox.</translation>
     <message>
         <location filename="../src/widget/form/removefrienddialog.ui" line="39"/>
         <source>YES</source>
-        <translation>SÍ</translation>
+        <translation>SI</translation>
     </message>
     <message>
         <location filename="../src/widget/form/removefrienddialog.ui" line="46"/>
