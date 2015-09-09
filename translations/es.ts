@@ -1049,7 +1049,7 @@ Disabling chat history now will leave the encrypted history intact (but not usab
         <location filename="../src/widget/form/settings/generalsettings.ui" line="153"/>
         <source>Enable light tray icon.</source>
         <comment>toolTip for light icon setting</comment>
-        <translation>Habilitará un ícono claro en la bandeja</translation>
+        <translation>Habilitará un ícono claro en la bandeja.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="156"/>
@@ -1487,7 +1487,7 @@ Compártelo con tus amigos para poder comunicarte.</translation>
         <location filename="../src/widget/form/profileform.ui" line="239"/>
         <source>Go back to the login screen</source>
         <comment>tooltip for logout button</comment>
-        <translation>Te lleva a la pantalla de inicio</translation>
+        <translation>Te lleva a la pantalla de inicio.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/profileform.ui" line="242"/>
