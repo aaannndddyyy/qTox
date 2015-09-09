@@ -1013,7 +1013,7 @@ Disabling chat history now will leave the encrypted history intact (but not usab
         <location filename="../src/widget/form/settings/generalsettings.ui" line="325"/>
         <source>Play a sound when you recieve message.</source>
         <comment>toolTip for Notify sound setting</comment>
-        <translation>Reproducir un sonido cuando recibas un mensaje.</translation>
+        <translation>Reproducirá un sonido cuando recibas un mensaje.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="328"/>
@@ -1049,7 +1049,7 @@ Disabling chat history now will leave the encrypted history intact (but not usab
         <location filename="../src/widget/form/settings/generalsettings.ui" line="153"/>
         <source>Enable light tray icon.</source>
         <comment>toolTip for light icon setting</comment>
-        <translation>Habilitar ícono claro en la bandeja</translation>
+        <translation>Habilitará un ícono claro en la bandeja</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="156"/>
@@ -1112,7 +1112,7 @@ en lugar de la barra de tareas del sistema.</translation>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="370"/>
         <source>Always notify about new messages in groupchats.</source>
         <comment>toolTip for Group chat always notify</comment>
-        <translation>Siempre notificar sobre nuevos mensajes en chats grupales.</translation>
+        <translation>Siempre se notificará sobre nuevos mensajes en chats grupales.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="373"/>
@@ -1128,7 +1128,7 @@ en lugar de la barra de tareas del sistema.</translation>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="335"/>
         <source>Focus qTox when you receive message.</source>
         <comment>toolTip for Focus window setting</comment>
-        <translation>Poner qTox en foco cuando recibas un mensaje.</translation>
+        <translation>qTox se pondrá en foco cuando recibas un mensaje.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="286"/>
@@ -1171,7 +1171,7 @@ en lugar de la barra de tareas del sistema.</translation>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="380"/>
         <source>If checked, groupchats will be placed at the top of the friends list, otherwise, they&apos;ll be placed below online friends.</source>
         <comment>toolTip for groupchat positioning</comment>
-        <translation>Si se marca, los chats grupales serán colocados en la parte superior de la lista de amigos. De lo contrario, serán colocados debajo.</translation>
+        <translation>Si se marca, los chats grupales se colocarán en la parte superior de la lista de amigos. De lo contrario, se colocarán debajo.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="249"/>
@@ -1182,7 +1182,7 @@ en lugar de la barra de tareas del sistema.</translation>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="345"/>
         <source>Open qTox&apos;s window when you receive a new message and no window is open yet.</source>
         <comment>tooltip for Show window setting</comment>
-        <translation>Abrir una ventana de qTox al recibir un nuevo mensaje si no hay ninguna ya abierta.</translation>
+        <translation>Abrirá una ventana de qTox al recibir un nuevo mensaje si no hay ninguna ya abierta.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="348"/>
@@ -1200,7 +1200,7 @@ en lugar de la barra de tareas del sistema.</translation>
 will be sent to them when they appear online to you.</source>
         <comment>toolTip for Faux offline messaging setting</comment>
         <translation>Los mensajes que intentes enviar a tus amigos cuando estén desconectados
-serán enviados cuando tú y ellos estén conectados al mismo tiempo.</translation>
+se enviarán cuando tú y ellos estén conectados al mismo tiempo.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/settings/generalsettings.ui" line="487"/>
@@ -1475,19 +1475,19 @@ Compártelo con tus amigos para poder comunicarte.</translation>
         <location filename="../src/widget/form/profileform.ui" line="208"/>
         <source>Rename profile.</source>
         <comment>tooltip for renaming profile button</comment>
-        <translation>Renombra el perfil.</translation>
+        <translation>Aquí puedes renombrar tu perfil actual.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/profileform.ui" line="218"/>
         <source>Delete profile.</source>
         <comment>delete profile button tooltip</comment>
-        <translation>Elimina el perfil actual.</translation>
+        <translation>Eso eliminará tu perfil actual.</translation>
     </message>
     <message>
         <location filename="../src/widget/form/profileform.ui" line="239"/>
         <source>Go back to the login screen</source>
         <comment>tooltip for logout button</comment>
-        <translation>Volver a la pantalla de inicio</translation>
+        <translation>Te lleva a la pantalla de inicio</translation>
     </message>
     <message>
         <location filename="../src/widget/form/profileform.ui" line="242"/>
@@ -1542,7 +1542,7 @@ Compártelo con tus amigos para poder comunicarte.</translation>
         <source>Allows you to export your Tox profile to a file.
 Profile does not contain your history.</source>
         <comment>tooltip for profile exporting button</comment>
-        <translation>Exporta tu perfil Tox a un archivo.
+        <translation>Te permite exportar tu perfil Tox a un archivo.
 El perfil no contiene tu historial.</translation>
     </message>
     <message>
