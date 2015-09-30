@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0">
+<TS version="2.0" language="sw">
 <context>
     <name>AVForm</name>
     <message>
@@ -1786,6 +1786,7 @@ If you encountered this error, please report it.</source>
         <location filename="../src/widget/notificationedgewidget.cpp" line="54"/>
         <source>Unread message(s)</source>
         <translation type="unfinished">
+            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
