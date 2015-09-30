@@ -16,6 +16,7 @@ TRANSLATIONS = translations/es.ts \
                translations/ru.ts \
                translations/sl.ts \
                translations/sv.ts \
+               trnaslations/sw.ts \
                translations/uk.ts \
                translations/zh.ts \
                translations/pt.ts
